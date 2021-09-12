@@ -40,4 +40,8 @@ If the installation was successful, you should be able to run the following comm
 
   npm -v
   6.14.13
+  
+  Using the application
+
+To use the application via React JS frontend, you can go visit http://localhost:3000/ from the browser. In the home page, you will see an UI where the user can add and edit and delete notes.
 
