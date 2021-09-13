@@ -15,7 +15,7 @@ I chose React JS for the frontend application because I have been working with R
 
 For development, you will only need Node.js and a node global package manager npm, installed in your environment.
 
-# Node
+## Node
 
 Node installation on Windows
 
@@ -39,8 +39,22 @@ If the installation was successful, you should be able to run the following comm
 
   npm -v
   6.14.13
+
+# Install package dependencies
+
+Since the project is divided into server and frontend, both dependencies have to be installed separately. Inside the root folder (notes-app-task/) of the project, there are two sub folders, one for the backend (notes-app-task/server/) and another for the frontend (notes-app-task/client/). To install the dependencies for the first time, the following command has to be executed in both folders:
+
+  npm install 
+
+This will remove node_modules/ folder if already present and download all the dependencies in node_modules/ folder. For reinstalling dependencies in case of conflicts, you can run: 
+
+  npm ci
+
+# Starting the Application 
+
+Running npm run start in both the folders (notes-app-task/server/ and notes-app-task/client/) will start the Notepad Application
   
-  # Using the application
+# Using the application
 
 To use the application via React JS frontend, you can go visit http://localhost:3000/ from the browser. In the home page, you will see an UI where the user can add and edit and delete notes.
 
