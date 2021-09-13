@@ -56,5 +56,5 @@ Running npm run start in both the folders (notes-app-task/server/ and notes-app-
   
 ## Using the application
 
-To use the application via React JS frontend, you can go visit http://localhost:3000/ from the browser. In the home page, you will see a UI where the user can add and edit and delete notes.
+To use the application via React JS frontend, you can go visit http://localhost:8000/ from the browser. In the home page, you will see a UI where the user can add and edit and delete notes.
 
